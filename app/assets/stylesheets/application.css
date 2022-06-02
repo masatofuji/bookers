@@ -14,12 +14,6 @@
  *= require_self
  */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: #fff;
   color: #333;
@@ -42,4 +36,22 @@ a {
 
 a:visited {
   color: #666;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-lift: 5px;
+  padding-right: 5px;
+}
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
 }
